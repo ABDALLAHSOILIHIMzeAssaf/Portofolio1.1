@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="icon" href="Image/logo_2.jpg" type="image/x-icon">
+  <title>Contact</title>
+</head>
+<body>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <ion-icon name="menu-outline"></ion-icon>
+    </label>
+    <a href="index.html" id="logo"><label class="logo" ><span>Mon</span>Portfolio</label></a>
+    <label class="logo2" href="index.html"><img src="Image/logo_2.jpg" alt=""></label>
+    <ul>
+      <li><a class="home" href="index.html">Accueil</a></li>
+      <li><a class="about" href="about.html">À propos</a></li>
+      <li><a class="projet" href="404.html">Projet</a></li>
+      <li><a class="contact" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="contact">
+      <h2>Contactez-moi</h2>
+      <form action="https://formsubmit.co/abdallahsoilihiassaf@gmail.com" method="post">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message"  required></textarea>
+
+        <button type="submit"><span class="send">Envoyer</span><ion-icon name="paper-plane"></ion-icon></button>
+    </form>
+    </section>
+  </main>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
